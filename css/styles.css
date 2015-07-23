@@ -351,7 +351,7 @@ h6 {
 -----------------------------------------*/
 
 header {
-	background: url(../images/maxresdefault-1940px-orange-blue2.png) no-repeat center top fixed;
+	background: white;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -371,11 +371,12 @@ header .vertical-registration-form {
 }
 
 .intro {
-	color: #ffffff;
+	color: #000;
 }
 
 .navbar-header img {
-	max-height: 26px;
+	max-height: 26px
+        color: #ffffff;
 }
 
 
@@ -384,7 +385,7 @@ header .vertical-registration-form {
 -----------------------------------------*/
 /* NAV RESETS */
 .navbar-nav > li > a:hover {
-	background: inherit;
+	background: rgba(0, 0, 0, 0.498039);
 }
 
 /* NORMAL NAVIGATION WITH SOCIAL ICON AND LOGO ONLY */
@@ -397,7 +398,7 @@ header .vertical-registration-form {
 	padding: 0;
 	padding-left: 5px;
 	padding-top: 3px;
-	color: #ffffff;
+	color: rgba(0, 0, 0, 0.498039);
 }
 
 
@@ -430,7 +431,7 @@ header .vertical-registration-form {
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #323232;
+	color: #000000;
 }
 
 
@@ -458,7 +459,7 @@ header .vertical-registration-form {
 }
 
 .feature-list-1 li p {
-	color: rgba(255, 255, 255, 0.8);
+	color: #727272;
 	font-size: 18px;
 	line-height: 30px;
 }
