@@ -1,0 +1,6 @@
+{
+    "require": {
+        "infusionsoft/php-sdk": "^1.1"
+        "nategood/httpful": "*"
+    }
+}
