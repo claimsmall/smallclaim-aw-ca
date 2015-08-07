@@ -212,14 +212,20 @@
     <input name="infusionsoft_version" type="hidden" value="1.44.0.47" />
     <input class="form-control input-box" id="inf_field_FirstName" type="text" name="inf_field_FirstName" placeholder="Your Name">
     <input class="form-control input-box" id="inf_field_Email" type="email" name="inf_field_Email" placeholder="Your Email">
-    <input class="form-control input-box" id="phone-number" type="text" name="phone-number" placeholder="Phone Number">
-    <select class="form-control" id="sel1" type="button" name="serviceSelect">
-        <option>I want to file a new claim.</option>
-        <option>Done filing, need additional help.</option>
-        <option>Done with trial, tracking payments.</option>
-        <option>I don't know, I would prefer to speak to someone.</option>
-        <option>I'm calling for a consultation.</option>
-    </select>
+    <input class="form-control input-box" id="inf_field_Phone1" type="text" name="phone-number" placeholder="Phone Number">
+    <label for="inf_custom_ServiceSelect">Dispute *</label>
+        <select class="form-control" id="inf_custom_ServiceSelect" type="button" name="inf_custom_ServiceSelect">
+            <option>I want to file a new claim.</option>
+            <option>Done filing, need additional help.</option>
+            <option>Done with trial, tracking payments.</option>
+            <option>I don't know, I would prefer to speak to someone.</option>
+            <option>I'm calling for a consultation.</option>
+        </select>
+    </br>
+    <span class="infusion-option" name="email-optin">
+            <input checked="checked" id="inf_option_ReceiveGuidesandSpecialsviaEmail" name="inf_option_ReceiveGuidesandSpecialsviaEmail" type="checkbox" value="265" />
+            <label for="inf_option_ReceiveGuidesandSpecialsviaEmail">Receive Guides and Specials via Email?</label>
+    </span>
     </br>
     <div class="infusion-submit">
     <input type="submit" value="Submit" />
